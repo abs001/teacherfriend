@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Result Generator</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <section class="section home-feature">
+        <div class="container">
+            {% for record in data %}
+            <div class="row">
+                <div class="col-lg-6 border border-dark rounded-2 border-4">
+                    <div class="row">
+                        <div class="text-center"><h3><b>उपस्थिती</b></h3></div>
+                    </div>
+                    <div class="row">
+                        <table class="table table-bordered">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>महिना</th>
+                                    <th>जून</th>
+                                    <th>जुलै</th>
+                                    <th>ऑग.</th>
+                                    <th>सप्टे</th>
+                                    <th>ओक्ट.</th>
+                                    <th>नोव्हें.</th>
+                                    <th>डिसे</th>
+                                    <th>जाने</th>
+                                    <th>फेब्रु</th>
+                                    <th>मार्च</th>
+                                    <th>एप्रिल</th>
+                                    <th>मे</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>कामाचे दिवस</td>
+                                    <td>जून</td>
+                                    <td>जुलै</td>
+                                    <td>ऑग.</td>
+                                    <td>सप्टे</td>
+                                    <td>ओक्ट.</td>
+                                    <td>नोव्हें.</td>
+                                    <td>डिसे</td>
+                                    <td>जाने</td>
+                                    <td>फेब्रु</td>
+                                    <td>मार्च</td>
+                                    <td>एप्रिल</td>
+                                    <td>मे</td>
+                                </tr>
+                                <tr>
+                                    <td>हजर दिवस</td>
+                                    <td>जून</td>
+                                    <td>जुलै</td>
+                                    <td>ऑग.</td>
+                                    <td>सप्टे</td>
+                                    <td>ओक्ट.</td>
+                                    <td>नोव्हें.</td>
+                                    <td>डिसे</td>
+                                    <td>जाने</td>
+                                    <td>फेब्रु</td>
+                                    <td>मार्च</td>
+                                    <td>एप्रिल</td>
+                                    <td>मे</td>
+                                </tr>
+                                <tr>
+                                    <td>वर्गाशिक्षक स्वाक्षरी</td>
+                                    <td>जून</td>
+                                    <td>जुलै</td>
+                                    <td>ऑग.</td>
+                                    <td>सप्टे</td>
+                                    <td>ओक्ट.</td>
+                                    <td>नोव्हें.</td>
+                                    <td>डिसे</td>
+                                    <td>जाने</td>
+                                    <td>फेब्रु</td>
+                                    <td>मार्च</td>
+                                    <td>एप्रिल</td>
+                                    <td>मे</td>
+                                </tr>
+                                <tr>
+                                    <td>पालक स्वाक्षरी</td>
+                                    <td colspan="3"></td>
+                                    <td colspan="3"></td>
+                                    <td colspan="3"></td>
+                                    <td colspan="3"></td>
+                                </tr>
+                                 <tr>
+                                    <td>मुख्याध्यापक स्वाक्षरी</td>
+                                     <td colspan="3"></td>
+                                    <td colspan="3"></td>
+                                    <td colspan="3"></td>
+                                    <td colspan="3"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="text-center"><h3><b>श्रेणी तक्ता</b></h3></div>
+                    <div class="row">
+                        <table class="table table-bordered">
+                            <tr>
+                                <td>गुणांचे वर्गांतर</td>
+                                <td>९१ % ते १०० %</td>
+                                <td>८१ % ते ९० %</td>
+                                <td>७१ % ते ८० %</td>
+                                <td>६१ % ते ७० %</td>
+                                <td>५१ % ते ६० %</td>
+                                <td>४१ % ते ५० %</td>
+                                <td>३३ % ते ४० %</td>
+                                <td>२१ % ते ३२ %</td>
+                                <td>२० % ते त्यापेक्षा कमी</td>
+                            </tr>
+                            <tr>
+                                <td>श्रेणी</td>
+                                <td>अ-१</td>
+                                <td>अ-२</td>
+                                <td>ब-१</td>
+                                <td>ब-२</td>
+                                <td>क-१</td>
+                                <td>क-२</td>
+                                <td>ड</td>
+                                <td>इ</td>
+                                <td>ई</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="row">
+                        <br>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <p>वर्गाशिक्षकांची स्वाक्षरी<br><br><br></p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>मुखाध्यपकांची स्वाक्षरी<br><br><br></p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>पालकांची स्वाक्षरी<br><br><br></p>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        उन्हाळी सुट्टीनंतर शाळा दिनांक  &emsp; &emsp;/ &emsp;/२० रोजी सुरु होईल
+                    </div>
+                </div>
+                <!-- Page 2 -->
+                <div class="col-lg-6 border border-dark rounded-2 border-4">
+                    <div class="row">
+                        <h3><b><p class="text-center">विद्यार्थी प्रगतिपत्रक</p></b></h3>
+                    </div>
+                    <div class="row">
+                        <p>
+                            <b>शाळेचे नाव: </b> <br>
+                            <b>सन २०२० - २०२१ </b></p>
+                    </div>
+                    <div>
+                        <p>
+                            <h5 class="text-center"><b>वैयक्तिक माहिती</b></h5>
+                            <h6>विद्यार्त्याचेनाव: जन्मदिनांक:</h6>
+                            <h6>विद्यार्थी आय. डी. नं.</h6>
+                            <h6>विद्यार्थी यु. आय. डी. नं. (आधारकार्ड नं)</h6>
+                            <h6>इयत्ता: तुकडी: ज.रजि.नं: </h6>
+                            <h6>वडिलांचे नाव:</h6>
+                            <h6>आईचे नाव:</h6>
+                            <h6>मातृभाषा: माध्यम: </h6>
+                            <h6>पत्ता</h6>
+                            <h6>दूरध्वनी/इ.मेल नं:</h6>
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <h5 class="text-center"><b>आरोग्यविषयक माहिती</b></h5>
+                            <table class="table table-bordered">
+                                <tr>
+                                    <td></td>
+                                    <td>प्रथम सत्र</td>
+                                    <td>द्वितीय सत्र</td>
+                                </tr>
+                                <tr>
+                                    <td>वजन (कि.ग्रॅ.)</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>उंची (सेमी)</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </p>
+                    </div>
+                </div>
+                <!-- Page 3 -->
+                <div class="col-lg-6 border border-dark rounded-2 border-4">
+                    <div class="row">
+                        <h3><b><p class="text-center">प्रगतिपत्रक (प्रथम)</p></b></h3>
+                    </div>
+                    <div class="row">
+                        <table class="table table-bordered">
+                            <tr>
+                                <td><b>अ.नं.</b></td>
+                                <td><b>विषय</b></td>
+                                <td><b>श्रेणी</b></td>
+                                <td><b>वर्णनात्मक नोंदी</b></td>
+                            </tr>
+                            <tr>
+                                <td>१</td>
+                                <td>प्रथम भाषा</td>
+                                <td></td>
+                                <td>विशेष प्रगती</td>
+                            </tr>
+                            <tr>
+                                <td>२</td>
+                                <td>द्वितीय भाषा</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>३</td>
+                                <td>तृतीय भाषा</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>४</td>
+                                <td>गणित</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>५</td>
+                                <td>परिसर अभ्यास-१, सामान्य विज्ञान </td>
+                                <td></td>
+                                <td>आवड/छंद (कला, क्रीडा, साहित्य इत्यादि</td>
+                            </tr>
+                            <tr>
+                                <td>६</td>
+                                <td>परिसर अभ्यास-२, <br>सामाजिक शास्त्रे (इतिहास-नाग+भूगोल)</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>७</td>
+                                <td>कला</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>८</td>
+                                <td>कार्यानुभव</td>
+                                <td></td>
+                                <td>सुधारणा आवश्यक</td>
+                            </tr>
+                            <tr>
+                                <td>९</td>
+                                <td>शा. शिक्षण व् आरोग्य शिक्षण</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <p>वर्गाशिक्षकांची स्वाक्षरी<br><br><br></p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>मुखाध्यपकांची स्वाक्षरी<br><br><br></p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>पालकांची स्वाक्षरी<br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Page 4 -->
+                <div class="col-lg-6 border border-dark rounded-2 border-4">
+                    <div class="row">
+                        <h3><b><p class="text-center">प्रगतिपत्रक (द्वितीय)</p></b></h3>
+                    </div>
+                    <div class="row">
+                        <table class="table table-bordered">
+                            <tr>
+                                <td><b>अ.नं.</b></td>
+                                <td><b>विषय</b></td>
+                                <td><b>श्रेणी</b></td>
+                                <td><b>वर्णनात्मक नोंदी</b></td>
+                            </tr>
+                            <tr>
+                                <td>१</td>
+                                <td>प्रथम भाषा</td>
+                                <td></td>
+                                <td>विशेष प्रगती</td>
+                            </tr>
+                            <tr>
+                                <td>२</td>
+                                <td>द्वितीय भाषा</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>३</td>
+                                <td>तृतीय भाषा</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>४</td>
+                                <td>गणित</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>५</td>
+                                <td>परिसर अभ्यास-१, सामान्य विज्ञान </td>
+                                <td></td>
+                                <td>आवड/छंद (कला, क्रीडा, साहित्य इत्यादि</td>
+                            </tr>
+                            <tr>
+                                <td>६</td>
+                                <td>परिसर अभ्यास-२, <br>सामाजिक शास्त्रे (इतिहास-नाग+भूगोल)</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>७</td>
+                                <td>कला</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>८</td>
+                                <td>कार्यानुभव</td>
+                                <td></td>
+                                <td>सुधारणा आवश्यक</td>
+                            </tr>
+                            <tr>
+                                <td>९</td>
+                                <td>शा. शिक्षण व् आरोग्य शिक्षण</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <p>वर्गाशिक्षकांची स्वाक्षरी<br><br><br></p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>मुखाध्यपकांची स्वाक्षरी<br><br><br></p>
+                        </div>
+                        <div class="col-md-4 text-center">
+                            <p>पालकांची स्वाक्षरी<br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+  </body>
+</html>
