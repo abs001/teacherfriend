@@ -36,7 +36,7 @@ Teacher Friend is a project developed in Django framework, used for generating m
   - Once upload successfull uesr need to click on generate result button
   - Result will be generated automatically based on excel data of multiple students
   - Result will generate in fixed format refer result image
-  - Mostly used for Maharashra primari school result
+  - Mostly used for Maharashtra primary school result
 
   <b>Home</b><br>
   <img src="https://github.com/abs001/teacherfriend/blob/master/homePNG.PNG" width=1000px height=500>
